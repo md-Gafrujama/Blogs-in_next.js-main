@@ -1,7 +1,8 @@
 "use client";
-
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
+
+
 
 const Blog1 = () => {
   const [email, setEmail] = useState("");
@@ -126,7 +127,7 @@ const Blog1 = () => {
 
   return (
     <>
-
+<Navbar/>
       <Head>
         <title>How Comparison Quotes, Reviews, and Articles Help a Tech Buyer's Journey</title>
         <meta property="og:title" content="How Comparison Quotes, Reviews, and Articles Help a Tech Buyer's Journey" />
@@ -613,7 +614,7 @@ const Blog1 = () => {
   </div>
 </div>
       </div>
-      
+    
     </>
   );
 };

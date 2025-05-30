@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 
+
 const Blog2 = () => {
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
@@ -126,7 +127,7 @@ const Blog2 = () => {
 
   return (
     <>
-
+<Navbar/>
       <Head>
         <title>Tech Buyer And Its Decision Making Journey.</title>
         <meta property="og:title" content="Tech Buyer And Its Decision Making Journey." />
@@ -657,7 +658,7 @@ const Blog2 = () => {
   </div>
 </div>
       </div>
-      
+ 
     </>
   );
 };
